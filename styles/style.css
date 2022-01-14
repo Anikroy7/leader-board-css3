@@ -1,0 +1,153 @@
+/* top-player section style */
+body {
+    background-color:#F3F1FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+main{
+  
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+} 
+hr{
+    border: 1px solid #D1D1D1;
+
+}
+
+
+.container{
+    background-color:#FFFFFF ;
+    width: 870px; 
+    padding: 31px;
+    margin-top: 24px;
+}
+.top-players{
+
+    margin-bottom: 31px;
+
+ }
+   
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-title{
+    margin-left: 16px;
+}
+  
+.player img{
+
+    height: 56px;
+    width: 56px;
+}
+.players{
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 29px;
+}
+/* blog section start
+----------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.blog-images img{
+    height: 117px;
+    width: 177px;
+}
+.blog-details{
+    display: flex;
+    align-items: center;
+}
+.blog-info{
+    margin-left: 16px;
+    
+    
+}
+.blog-info h3{
+    font-size: 20px;
+}
+.blog-title{
+    color: #562EFF;
+}
+.name{
+    color: #9F9F9F;
+}
+.name a{
+    text-decoration: none;
+    color: #562EFF;
+    ;
+}
+
+/* ------------------- */
+/* -Latest Course start  */
+/* --------------------------> */ 
+ 
+.course-title{
+    color: #562EFF;
+    font-size: 24px;
+
+}
+.courses{
+    display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 24px;
+  
+}
+.course{
+    height: 270px;
+    width: 253px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+    margin-top: 7px;
+}
+.course-title{
+    font-size: 21px;
+}
+
+.fa-star.color{
+    color: #FFC014;
+
+}
+.fa-star.empty{
+    background: #AEAEAE;
+    opacity: 0.25;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 14.6913px;
+
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons span{
+     margin-left: 5px;
+}
+.gara{
+   color: #A2A2A2
+}
+.time{
+    background-color: #ed6c4f52;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    color: #f73d13;
+}
