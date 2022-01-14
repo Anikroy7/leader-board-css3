@@ -151,3 +151,28 @@ hr{
     border-radius: 5px;
     color: #f73d13;
 }
+/*------media screen
+-------- */
+
+
+/* ----------------
+
+for mobile 
+
+--------------------*/
+
+@media  only screen and (max-width:688px) {
+    
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns:repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .players, .blogs, .courses{
+        flex-direction:column;
+    }
+
+}
